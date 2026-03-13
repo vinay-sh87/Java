@@ -63,7 +63,7 @@ class Bank{
         System.out.println("Total bank balance (not to be showed to the user) : "+totalBankBalance);
         System.out.println();
     }
-
+   
     public void deposit(double amount){
         if(amount > 0){
             this.balance += amount;
@@ -248,7 +248,7 @@ public class Main{
 
 
 
-
+  
     }
 }
 
